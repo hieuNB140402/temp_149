@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    tools:context=".ui.home.fragment.HomeFragment">
+
+    <!--    ctlTop-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ctlTop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="36:16.7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--        imvOutStanding-->
+        <ImageView
+            android:id="@+id/imvOutStanding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_bg_app" />
+
+        <!--        tvTitle-->
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/single_marquee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:fontFamily="@font/oleo_script_regular"
+            android:text="@string/love_test"
+            android:textColor="@color/pink_ff"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnChooseImage"
+            app:layout_constraintEnd_toStartOf="@+id/btnChooseImage"
+            app:layout_constraintStart_toStartOf="@+id/imvOutStanding"
+            app:layout_constraintTop_toTopOf="@+id/btnChooseImage" />
+
+
+        <!--    btnChooseImage-->
+        <ImageView
+            android:id="@+id/btnChooseImage"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="10dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_choose_image"
+            app:layout_constraintBottom_toBottomOf="@+id/btnSettings"
+            app:layout_constraintEnd_toStartOf="@+id/btnSettings"
+            app:layout_constraintTop_toTopOf="@+id/btnSettings" />
+
+        <!--    btnSettings-->
+        <ImageView
+            android:id="@+id/btnSettings"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_settings"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ctlTop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <!--    btnLoveTest-->
+            <FrameLayout
+                android:id="@+id/btnLoveTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@+id/ctlTop">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_home_btn_1" />
+
+                <!--        tvBtn1-->
+                <TextView
+                    android:id="@+id/tvBtn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/love_test"
+                    android:textColor="@color/purple_86"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/bg_16_solid_white"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="9dp"
+                    android:paddingStart="11dp"
+                    android:paddingEnd="6dp">
+                    <!--                    tvBtn6-->
+                    <TextView
+                        android:id="@+id/tvBtn6"
+                        style="@style/single_marquee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="clip_vertical"
+                        android:text="@string/test_now"
+                        android:textColor="@color/purple_86"
+                        android:textSize="12sp"
+                        android:translationY="1dp" />
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/ic_next" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!--        btnNameTest-->
+                <FrameLayout
+                    android:id="@+id/btnNameTest"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="19dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/img_home_btn_2" />
+
+                    <!--        tvBtn2-->
+                    <TextView
+                        android:id="@+id/tvBtn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="13dp"
+                        android:layout_marginTop="11dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/name_test"
+                        android:textColor="#370089"
+                        android:textSize="20sp" />
+                </FrameLayout>
+
+                <!--        btnFingerprintTest-->
+                <FrameLayout
+                    android:id="@+id/btnFingerprintTest"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/img_home_btn_3" />
+
+                    <!--        tvBtn3-->
+                    <TextView
+                        android:id="@+id/tvBtn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="13dp"
+                        android:layout_marginTop="11dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/fingerprint_test"
+                        android:textColor="#008277"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!--        btnDateTest-->
+                <FrameLayout
+                    android:id="@+id/btnDateTest"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="19dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/img_home_btn_4" />
+
+                    <!--        tvBtn4-->
+                    <TextView
+                        android:id="@+id/tvBtn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="13dp"
+                        android:layout_marginTop="11dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/date_of_birth_test"
+                        android:textColor="#287400"
+                        android:textSize="20sp" />
+                </FrameLayout>
+
+                <!--        btnQuestionTest-->
+                <FrameLayout
+                    android:id="@+id/btnQuestionTest"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/img_home_btn_5" />
+
+                    <!--        tvBtn5-->
+                    <TextView
+                        android:id="@+id/tvBtn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="13dp"
+                        android:layout_marginTop="11dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/question_test"
+                        android:textColor="#574000"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

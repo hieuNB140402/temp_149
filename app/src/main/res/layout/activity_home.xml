@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg_app"
+    tools:context=".ui.home.HomeActivity">
+
+    <!--    vpgHome-->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vpgHome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="-16dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/lnlBottomNavigation"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    lnlBottomNavigation-->
+    <LinearLayout
+        android:id="@+id/lnlBottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_20_solid_top_white"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!--        btnHome-->
+        <LinearLayout
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="18dp">
+
+            <!--            imvHome-->
+            <ImageView
+                android:id="@+id/imvHome"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_home"
+                app:tint="@color/gray_67" />
+
+            <!--            tvHome-->
+            <TextView
+                android:id="@+id/tvHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/home"
+                android:textColor="@color/gray_67"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <!--        btnStatus-->
+        <LinearLayout
+            android:id="@+id/btnStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="18dp">
+
+            <!--            imvStatus-->
+            <ImageView
+                android:id="@+id/imvStatus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_status"
+                app:tint="@color/gray_67" />
+
+            <!--            tvStatus-->
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/status"
+                android:textColor="@color/gray_67"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

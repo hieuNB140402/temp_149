@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    flOutSide-->
+    <FrameLayout
+        android:id="@+id/flOutSide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--        layoutMain-->
+        <LinearLayout
+            android:id="@+id/layoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/bg_16_solid_white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <!--            tvTitle-->
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="@string/edit_name"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <!--            edtName-->
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:background="@drawable/bg_12_solid_pink_ff"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/input_name"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLength="30"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="11dp"
+                android:textColor="#FF0077"
+                android:textColorHint="#FFBCCC"
+                android:textSize="16sp" />
+
+            <!--            flEdt-->
+            <FrameLayout
+                android:id="@+id/flEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="14dp">
+
+                <!--            edtAge-->
+                <TextView
+                    android:id="@+id/edtAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_12_solid_pink_ff"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:fontFamily="@font/roboto_regular"
+                    android:hint="MM/dd/YYYY"
+                    android:imeOptions="actionDone"
+                    android:inputType="date"
+                    android:maxLength="30"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="11dp"
+                    android:textColor="#FF0077"
+                    android:textColorHint="#FFBCCC"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvAgeTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="11dp" />
+
+            </FrameLayout>
+
+
+            <!--                btnDone-->
+            <TextView
+                android:id="@+id/btnDone"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginVertical="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_8_solid_pink_fe"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:paddingHorizontal="30dp"
+                android:paddingVertical="7dp"
+                android:text="@string/done"
+                android:textColor="@color/white_bg_app"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>

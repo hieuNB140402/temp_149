@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Character Avatar Creator</string>
+    <string name="go_to_setting_message">The app needs this permission</string>
+    <string name="settings">Settings</string>
+    <string name="this_action_can_contain_ads">This action can contain ads</string>
+    <string name="not_select_lang">Please select a language</string>
+    <string name="next">Next</string>
+    <string name="language">Language</string>
+
+    <string name="title_1">Create Your Own Avatar However You Like</string>
+    <string name="title_2">Variety Of Unique Category</string>
+    <string name="title_3">Diverse Characters Style</string>
+
+    <string name="permission">Permission</string>
+    <string name="storage">Storage</string>
+    <string name="continue_per">Continue</string>
+    <string name="notification">Notification</string>
+    <string name="granted_notification">Notification permission granted</string>
+    <string name="granted_storage">Storage permission granted</string>
+    <string name="allow">Allow</string>
+    <string name="to_access">to access photos on your device</string>
+    <string name="to_access_13">to access notification on your device</string>
+
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="privacy_policy"><![CDATA[Privacy & Policy]]></string>
+
+    <string name="zero_star_title">Do you like the app?</string>
+    <string name="zero_star">Let us know your experience</string>
+
+    <string name="one_star_title">Oh, no!</string>
+    <string name="one_star">Please give us some feedback</string>
+
+    <string name="two_star_title">Oh, no!</string>
+    <string name="two_star">Please give us some feedback</string>
+
+    <string name="three_star_title">Oh, no!</string>
+    <string name="three_star">Please give us some feedback</string>
+
+    <string name="four_star_title">We love you too!</string>
+    <string name="four_star">Thanks for your feedback</string>
+
+    <string name="five_star_title">We love you too!</string>
+    <string name="five_star">Thanks for your feedback</string>
+
+    <string name="rate_us_0">You have not rated it yet!</string>
+    <string name="rate">Rate</string>
+    <string name="exit">Exit</string>
+    <string name="have_rated">Thank you for rate our app</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="download">Download</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="wait_a_minute">Wait a few second...</string>
+    <string name="reset">Reset</string>
+    <string name="download_success">Download successful to the Character Maker album</string>
+    <string name="please_check_your_internet">Please check your internet</string>
+    <string name="please_select_an_image">Please select an image</string>
+    <string name="error">Error</string>
+    <string name="an_error_occurred">An error occurred, please try again later.</string>
+    <string name="image_has_been_saved_successfully">Image has been saved successfully!</string>
+    <string name="save">Save</string>
+    <string name="are_you_sure_want_to_delete_this_item">Are you sure want to delete this item?</string>
+    <string name="downloading">Downloading...</string>
+    <string name="successfully">Successfully</string>
+    <string name="download_failed_please_try_again_later">Download failed, please try again later!</string>
+    <string name="save_failed_please_try_again">Save failed, please try again!</string>
+    <string name="delete_failed_please_try_again">Delete failed, please try again!</string>
+    <string name="my_creation">My Creation</string>
+    <string name="delete_your_customize">Delete your customize</string>
+    <string name="are_you_sure_you_want_to_delete_the_image">Are you sure you want to delete the image?</string>
+    <string name="haven_t_saved_it_yet_do_you_want_to_exit">Haven\'t saved it yet, do you want to exit?</string>
+    <string name="change_your_whole_design_are_you_sure">Do you want to reset all?</string>
+    <string name="character_maker">Character Maker</string>
+    <string name="no_item_here">No Item Here</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="love_test">Love Test</string>
+    <string name="test_now">Test now</string>
+    <string name="name_test">Name Test</string>
+    <string name="fingerprint_test">Fingerprint Test</string>
+    <string name="date_of_birth_test">Date of Birth Test</string>
+    <string name="question_test">Question Test</string>
+    <string name="home">Home</string>
+    <string name="status">Status</string>
+    <string name="please_select_language_to_continue">Please select language to continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="me">Me</string>
+    <string name="value_days">%s Days</string>
+    <string name="value_start_date">Since %s</string>
+    <string name="zero_day">0 Day</string>
+    <string name="year">Year</string>
+    <string name="days">Days</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="template">Template</string>
+    <string name="name">Name</string>
+    <string name="input_your_topic">Input your topic</string>
+    <string name="relationship_start_date">Relationship Start Date</string>
+    <string name="couple_s_image">Couple\'s Image</string>
+    <string name="edit">Edit</string>
+    <string name="you">You</string>
+    <string name="age">Age</string>
+    <string name="change_avatar">Change Avatar</string>
+    <string name="edit_name">Edit name</string>
+    <string name="input_name">Input name</string>
+    <string name="done">Done</string>
+    <string name="please_do_not_leave_name_blank">Please do not leave name blank</string>
+
+
+    <string name="long_slogan_1">Love is not about finding the perfect person, but about learning to see perfection in someone\'s imperfections. When we truly love someone, we accept their flaws, their mistakes, and even the scars on their soul. Because love isn\'t about changing each other — it\'s about growing together to become better versions of ourselves. To love is to mature together, to smile together, no matter how much the world changes.</string>
+    <string name="long_slogan_2">Love is like a flame — if it burns only with emotion, it will fade quickly; but if it\'s fueled by trust and understanding, it will never go out. Every gentle word, every held hand, every act of forgiveness becomes the spark that keeps it alive. And when two people choose to cherish each other every single day, love becomes the calmest warmth in a stormy world.</string>
+    <string name="long_slogan_3">Love doesn\'t need to be loud or showy — just a look that understands, an embrace that feels safe, and two hearts always reaching for each other. Sometimes silence between two people speaks louder than a thousand promises. When you find someone whose presence alone makes you feel at peace, that\'s real love — simple yet enduring, quiet yet profoundly deep.</string>
+    <string name="long_slogan_4">In love, it doesn\'t matter who comes first or who loves more — what truly matters is who stays until the end. Because love isn\'t possession; it\'s companionship. It\'s seeing that person happy, even if their joy doesn\'t always include you. It\'s choosing to stay, not because you need someone, but because you can\'t imagine life without them.</string>
+    <string name="long_slogan_5">Love is the journey of two imperfect people creating something perfect together. There will be moments of anger, misunderstanding, and pain — but those are what make love real and strong. When two hearts learn to listen, to forgive, and still choose to hold hands, their love has already withstood the test of time.</string>
+    <string name="long_slogan_6">Love is not just a fleeting emotion — it\'s a choice. A choice to trust, to be patient, to stay. Today might be hard, but if we keep choosing each other despite everything, that\'s true love. Because real love doesn\'t say, “I need you,” but softly whispers, “I choose you, every day.”</string>
+    <string name="long_slogan_7">Some loves don\'t need forever promises — just waking up and seeing that person beside you is enough. Happiness isn\'t found in grand gestures, but in the small moments shared: a meal together, a shared laugh, a quiet glance. Love isn\'t measured by years, but by the peaceful moments two hearts create together.</string>
+    <string name="long_slogan_8">Love teaches us patience, compassion, and how to place “us” above “me.” Things won\'t always be easy, but in difficult times we realize how precious it is to have someone who stays. A beautiful love isn\'t one without tears — it\'s one where, even through tears, you can still smile because you know you\'re not alone.</string>
+    <string name="long_slogan_9">Love doesn\'t make life easier, but it gives us a reason to smile through the struggles. When you love the right person, even the simplest things become meaningful — the morning sunlight, the afternoon rain, or just the sound of their voice. Because love isn\'t found in grand moments, but in how two people make each other feel “at home,” no matter where they are.</string>
+    <string name="long_slogan_10">Love is not just about sweet words or romantic moments, but about understanding, forgiveness, and standing together through life\'s storms. When two hearts beat as one, every hardship feels lighter and every joy becomes fuller. True love doesn\'t need to be perfect — it only needs to be sincere and steadfast. Because in a world that changes every single day, holding someone\'s hand and walking through the years together is the simplest yet most precious miracle of all.</string>
+    <string name="enter_your_and_your_partner_s_birthday_and_see_if_you_two_are_compatible">Enter your and your partner’s birthday and see if you two are compatible!</string>
+    <string name="partner">Partner</string>
+    <string name="analyze">Analyze</string>
+    <string name="please_do_not_leave_the_entry_blank">Please do not leave the entry blank!</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="try_again">Try Again</string>
+    <string name="show_result">Show Result</string>
+    <string name="result_question">Result Question</string>
+</resources>
