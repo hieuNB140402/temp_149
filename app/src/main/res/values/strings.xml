@@ -108,8 +108,6 @@
     <string name="input_name">Input name</string>
     <string name="done">Done</string>
     <string name="please_do_not_leave_name_blank">Please do not leave name blank</string>
-
-
     <string name="long_slogan_1">Love is not about finding the perfect person, but about learning to see perfection in someone\'s imperfections. When we truly love someone, we accept their flaws, their mistakes, and even the scars on their soul. Because love isn\'t about changing each other — it\'s about growing together to become better versions of ourselves. To love is to mature together, to smile together, no matter how much the world changes.</string>
     <string name="long_slogan_2">Love is like a flame — if it burns only with emotion, it will fade quickly; but if it\'s fueled by trust and understanding, it will never go out. Every gentle word, every held hand, every act of forgiveness becomes the spark that keeps it alive. And when two people choose to cherish each other every single day, love becomes the calmest warmth in a stormy world.</string>
     <string name="long_slogan_3">Love doesn\'t need to be loud or showy — just a look that understands, an embrace that feels safe, and two hearts always reaching for each other. Sometimes silence between two people speaks louder than a thousand promises. When you find someone whose presence alone makes you feel at peace, that\'s real love — simple yet enduring, quiet yet profoundly deep.</string>
@@ -124,48 +122,19 @@
     <string name="partner">Partner</string>
     <string name="analyze">Analyze</string>
     <string name="please_do_not_leave_the_entry_blank">Please do not leave the entry blank!</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="previous">Previous</string>
-
-    <string name="lorem_ipsum">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
-        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
-        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
-        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string>
     <string name="try_again">Try Again</string>
     <string name="show_result">Show Result</string>
     <string name="result_question">Result Question</string>
+    <string name="evaluate_1">The relationship is just beginning. Both show some interest but are still cautious and don’t fully understand each other yet. It’s like a seed just planted, needing time and small actions to grow.</string>
+    <string name="evaluate_2">There is a clear emotional connection, but harmony is not yet deep. Misunderstandings may still happen. With open communication and mutual listening, the relationship can become more stable.</string>
+    <string name="evaluate_3">The love between them is strong and understanding is deep. Both trust each other and share joys and difficulties. Maintaining positive communication and a shared vision can lead to a long-lasting relationship.</string>
+    <string name="evaluate_4">They have reached almost perfect harmony. The love is mature, solid, and meaningful. They see each other as soulmates, ready to face challenges together and build a shared future.</string>
+    <string name="enter_your_and_your_partner_s_name_and_see_if_you_two_are_compatible">Enter your and your partner’s name and see if you two are compatible!</string>
+    <string name="your_birthday">Your Birthday</string>
+    <string name="partner_s_birthday">Partner\'s Birthday</string>
+    <string name="enter_your_and_your_partner_s_fingerprints_for_compatibility">Enter your and your partner’s fingerprints for compatibility</string>
+    <string name="answer_the_question_first_and_then_let_your_lover_answer_to_calculate_the_compatibility_score">Answer the question first and then let your lover answer to calculate the compatibility score.</string>
+    <string name="number_of_questions">Number of questions</string>
+    <string name="value_questions">%s questions</string>
+    <string name="do_yout_want_to_exit">Do you want to exit?</string>
 </resources>

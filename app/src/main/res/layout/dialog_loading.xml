@@ -10,7 +10,7 @@
 
         <FrameLayout
             android:id="@+id/flMain"
-            android:background="@drawable/bg_16_stroke_gradient_solid_black"
+            android:background="@drawable/bg_16_solid_white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp">
@@ -38,7 +38,7 @@
                 android:fontFamily="@font/roboto_medium"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:textColor="@color/white"
+                android:textColor="@color/pink_ff"
                 android:textSize="18sp" />
         </FrameLayout>
     </LinearLayout>

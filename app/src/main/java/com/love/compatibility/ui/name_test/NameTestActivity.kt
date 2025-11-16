@@ -29,9 +29,11 @@ class NameTestActivity : BaseActivity<ActivityNameTestBinding>() {
 
     private val startActivityReset =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-            val data = result.data?.getStringExtra(IntentKey.INTENT_KEY)
-            if (data != "" || data != null) {
-                resetActivity()
+            if (result.resultCode == RESULT_OK){
+                val data = result.data?.getStringExtra(IntentKey.INTENT_KEY)
+                if (data != "" || data != null) {
+                    resetActivity()
+                }
             }
         }
 
@@ -75,6 +77,9 @@ class NameTestActivity : BaseActivity<ActivityNameTestBinding>() {
                 return
             }
 
+            edtMyName.clearFocus()
+            edtYourName.clearFocus()
+
             if (!viewModel.isLoveTest) {
                 handleResult(myName, yourName)
             } else {
@@ -86,6 +91,9 @@ class NameTestActivity : BaseActivity<ActivityNameTestBinding>() {
     private fun resetActivity() {
         binding.edtMyName.setText("")
         binding.edtYourName.setText("")
+
+        binding.edtMyName.clearFocus()
+        binding.edtYourName.clearFocus()
     }
 
     private fun handleResult(myName: String, yourName: String) {
@@ -98,7 +106,7 @@ class NameTestActivity : BaseActivity<ActivityNameTestBinding>() {
 
     private fun handleNextStep() {
         val intent = Intent(this, DateOfBirthActivity::class.java)
-        intent.putExtra(IntentKey.TYPE_KEY, ValueKey.TEST_LOVE_TYPE)
+        intent.putExtra(IntentKey.INTENT_KEY, true)
         val options = ActivityOptionsCompat.makeCustomAnimation(this, R.anim.slide_in_right, R.anim.slide_out_left)
         startActivity(intent, options.toBundle())
     }

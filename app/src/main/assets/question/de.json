@@ -1,0 +1,662 @@
+[
+    {
+        "question": "Was ist mein Lieblingsessen?",
+        "answerList": [
+            "Pizza",
+            "Sushi",
+            "Hotpot",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Sportart gefällt mir am besten?",
+        "answerList": [
+            "Fußball",
+            "Basketball",
+            "Tennis",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist mein idealer Abend?",
+        "answerList": [
+            "Einen Film ansehen",
+            "Spazieren gehen",
+            "Romantisches Abendessen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Um wie viel Uhr wache ich normalerweise auf?",
+        "answerList": [
+            "6-7 Uhr",
+            "7-8 Uhr",
+            "8-9 Uhr",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Outdoor-Aktivität macht mir Spaß?",
+        "answerList": [
+            "Jogging",
+            "Wandern",
+            "Radfahren",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie verbringe ich einen Wochenendvormittag am liebsten?",
+        "answerList": [
+            "Ausschlafen",
+            "Jogging",
+            "Frühstück draußen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist mein Lieblingsgetränk?",
+        "answerList": [
+            "Kaffee",
+            "Milchtee",
+            "Fruchtsaft",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Art von Date bevorzuge ich?",
+        "answerList": [
+            "Kaffee-Date",
+            "Filmdatum",
+            "Outdoor-Aktivität",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was mache ich gerne, wenn ich traurig bin?",
+        "answerList": [
+            "Chatten",
+            "Einen Film ansehen",
+            "Eis essen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welches Musikgenre mag ich?",
+        "answerList": [
+            "Pop",
+            "Ballade",
+            "Felsen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Art von Geschenk bevorzuge ich?",
+        "answerList": [
+            "Handgefertigt",
+            "Im Laden gekauft",
+            "Überraschungsgeschenk",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Art von Filmen mag ich?",
+        "answerList": [
+            "Komödie",
+            "Horror",
+            "Romantik",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist mein Lieblingsdessert?",
+        "answerList": [
+            "Eiscreme",
+            "Kuchen",
+            "Früchte",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Extremsportart würde ich gerne ausprobieren?",
+        "answerList": [
+            "Fallschirmspringen",
+            "Bergsteigen",
+            "Surfen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was mache ich auf Reisen am liebsten?",
+        "answerList": [
+            "Fotografieren",
+            "Essen erkunden",
+            "Einkaufen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist meine Frühstücksgewohnheit?",
+        "answerList": [
+            "Essen Sie mit Ihrem Partner",
+            "Essen Sie alleine",
+            "Überspringen Sie das Frühstück",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welches Fastfood mag ich?",
+        "answerList": [
+            "Hamburger",
+            "Hotdog",
+            "Pasta",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wohin gehe ich am Wochenende am liebsten?",
+        "answerList": [
+            "Park",
+            "Cafe",
+            "Kino",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was mache ich gerne in meiner Freizeit?",
+        "answerList": [
+            "Filme schauen",
+            "Spiele spielen",
+            "Kochen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Jahreszeit gefällt mir am besten?",
+        "answerList": [
+            "Frühling",
+            "Sommer",
+            "Winter",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welches Wintergetränk mag ich?",
+        "answerList": [
+            "Heiße Schokolade",
+            "Heißer Tee",
+            "Kaffee",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wohin gehe ich in meiner Freizeit am liebsten?",
+        "answerList": [
+            "Park",
+            "Cafe",
+            "Einkaufen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Art von Spielen mag ich?",
+        "answerList": [
+            "Brettspiele",
+            "Videospiele",
+            "Sport",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist mein liebstes Geburtstagsgeschenk?",
+        "answerList": [
+            "Blumen",
+            "Schokolade",
+            "Kleidung",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Wochenendaktivität mag ich?",
+        "answerList": [
+            "Picknick",
+            "Strandausflug",
+            "Camping",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Art von Date mag ich nicht?",
+        "answerList": [
+            "Lautes Café",
+            "Einkaufsbummel",
+            "Überfülltes Kino",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welches Sportspiel mag ich?",
+        "answerList": [
+            "Fußball",
+            "Basketball",
+            "Tennis",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist mein Lieblingsfrühstück?",
+        "answerList": [
+            "Brot",
+            "Pho",
+            "Klebriger Reis",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Reiseart bevorzuge ich?",
+        "answerList": [
+            "Gruppenreise",
+            "Pärchenausflug",
+            "Solo-Reise",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist meine Gewohnheit, Filme zu schauen?",
+        "answerList": [
+            "Zu Hause ansehen",
+            "Im Kino ansehen",
+            "Mit Freunden ansehen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welches Wetter bevorzuge ich?",
+        "answerList": [
+            "Sonnig",
+            "Regnerisch",
+            "Kalt und bewölkt",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie entspanne ich mich normalerweise nach einem langen Tag?",
+        "answerList": [
+            "Musik hören",
+            "YouTube ansehen",
+            "Schlafen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welches Haustier mag ich am liebsten?",
+        "answerList": [
+            "Hund",
+            "Katze",
+            "Hamster",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie kommuniziere ich am liebsten?",
+        "answerList": [
+            "SMS schreiben",
+            "Berufung",
+            "Videoanruf",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist mein liebstes Frühstücksgetränk?",
+        "answerList": [
+            "Milch",
+            "Tee",
+            "Kaffee",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie drücke ich normalerweise Zuneigung aus?",
+        "answerList": [
+            "Worte",
+            "Geschenke",
+            "Zeit verbringen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Art von Restaurant bevorzuge ich?",
+        "answerList": [
+            "Lässiges Essen",
+            "Streetfood",
+            "Feines Essen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was möchte ich normalerweise tun, wenn ich frei bin?",
+        "answerList": [
+            "Bleib zu Hause",
+            "Hinausgehen",
+            "Treffen Sie Freunde",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welches süße Getränk bevorzuge ich?",
+        "answerList": [
+            "Milchshake",
+            "Smoothie",
+            "Soda",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie zeige ich normalerweise, dass ich verärgert bin?",
+        "answerList": [
+            "Bleib still",
+            "Reden Sie weniger",
+            "Vermeiden Sie Nachrichten",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Art von Geschenken mag ich NICHT?",
+        "answerList": [
+            "Parfüm",
+            "Kleidung",
+            "Ausgefallene Artikel",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welches Buchgenre mag ich?",
+        "answerList": [
+            "Romantik",
+            "Selbsthilfe",
+            "Geheimnis",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie verbringe ich am liebsten Urlaub?",
+        "answerList": [
+            "Reisen",
+            "Zu Hause bleiben",
+            "Besuch bei der Familie",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Zu welcher Tageszeit fühle ich mich am energiegeladensten?",
+        "answerList": [
+            "Morgen",
+            "Nachmittag",
+            "Nacht",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist mein Wohlfühlessen?",
+        "answerList": [
+            "Nudeln",
+            "Reisgerichte",
+            "Snacks",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bleibe ich lieber drinnen oder draußen?",
+        "answerList": [
+            "Drinnen",
+            "Draußen",
+            "Hängt von der Stimmung ab",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie verbringe ich regnerische Tage am liebsten?",
+        "answerList": [
+            "Schlafen",
+            "Filme schauen",
+            "Lektüre",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Geschmacksrichtung mag ich am liebsten?",
+        "answerList": [
+            "Süß",
+            "Salzig",
+            "Scharf",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was mache ich bei einem Date am liebsten?",
+        "answerList": [
+            "Reden",
+            "Gehen",
+            "Gemeinsam essen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Art von Filmen lösen bei mir Emotionen aus?",
+        "answerList": [
+            "Drama",
+            "Romantik",
+            "Inspirierend",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie kleide ich mich normalerweise?",
+        "answerList": [
+            "Lässig",
+            "Sportlich",
+            "Formell",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Art von Training bevorzuge ich?",
+        "answerList": [
+            "Fitnessstudio",
+            "Läuft",
+            "Heimtraining",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welches Hobby passt am besten zu mir?",
+        "answerList": [
+            "Zeichnung",
+            "Musik",
+            "Fotografie",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Frisur bevorzuge ich?",
+        "answerList": [
+            "Kurzes Haar",
+            "Mittleres Haar",
+            "Langes Haar",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie reagiere ich, wenn ich Überraschungen erhalte?",
+        "answerList": [
+            "Lächeln",
+            "Sei schüchtern",
+            "Drücken Sie Begeisterung aus",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie würde ich meine Persönlichkeit beschreiben?",
+        "answerList": [
+            "Ruhig",
+            "Energisch",
+            "Spielerisch",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Welche Snacks mag ich?",
+        "answerList": [
+            "Chips",
+            "Schokolade",
+            "Gebäck",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wie beende ich am liebsten meinen Tag?",
+        "answerList": [
+            "Musik hören",
+            "Ich rede mit dir",
+            "Ruhig entspannen",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Was ist meine Lieblingsfrucht?",
+        "answerList": [
+            "Apfel",
+            "Wassermelone",
+            "Banane",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Wenn ich mir eine Wochenendaktivität aussuchen könnte, welche wäre das?",
+        "answerList": [
+            "Zu Hause bleiben",
+            "Ich gehe auf ein Date",
+            "Unterwegs irgendwo in der Nähe",
+            "Nichts des oben Genannten"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    }
+]

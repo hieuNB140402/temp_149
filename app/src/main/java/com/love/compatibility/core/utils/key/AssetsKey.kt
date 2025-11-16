@@ -5,6 +5,7 @@ object AssetsKey {
     const val DATA_ASSET = "file:///android_asset/data/"
     const val AVATAR_ASSET = "avatar"
     const val DATA = "data"
+    const val QUESTION_ASSET = "question"
     const val BACKGROUND_ASSET = "background"
     const val RANDOM_LAYER = "RANDOM_LAYER"
     const val NONE_LAYER = "NONE_LAYER"

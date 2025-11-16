@@ -15,11 +15,17 @@ import java.io.FileOutputStream
 
 object AssetHelper {
     // Read sub folder
-    fun getSubfoldersAsset(context: Context, path: String): ArrayList<String> {
+    fun getSubfoldersAsset(context: Context, path: String, withOutDomain: Boolean = false): ArrayList<String> {
         val allData = context.assets.list(path)
-        val sortedData = MediaHelper.sortAsset(allData)?.map { "${AssetsKey.ASSET_MANAGER}/$path/$it" }?.toCollection(ArrayList())
+        val sortedData = if (!withOutDomain){
+            MediaHelper.sortAsset(allData)?.map { "${AssetsKey.ASSET_MANAGER}/$path/$it" }?.toCollection(ArrayList())
+        }else{
+            MediaHelper.sortAsset(allData)?.map { it }?.toCollection(ArrayList())
+        }
         return sortedData ?: arrayListOf()
     }
+
+
 
     // Read sub folder
     fun getSubfoldersNotDomainAsset(context: Context, path: String): ArrayList<String> {

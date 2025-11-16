@@ -21,65 +21,13 @@
     </FrameLayout>
 
 
-    <!--    lnlTextTop-->
-    <LinearLayout
-        android:id="@+id/lnlTextTop"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:paddingHorizontal="16dp"
-        android:weightSum="10"
-        app:layout_constraintTop_toBottomOf="@id/flActionBar">
-
-        <!--        tvLeft-->
-        <TextView
-            android:id="@+id/tvLeft"
-            style="@style/single_marquee"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:fontFamily="@font/cookie_regular"
-            android:gravity="center"
-            android:text="20/11/2025"
-            android:textColor="#C71414"
-            android:textSize="28sp" />
-
-        <FrameLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2">
-
-            <ImageView
-                android:layout_width="28dp"
-                android:layout_height="28dp"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_plush"
-                app:tint="#C71414" />
-        </FrameLayout>
-
-        <!--        tvRight-->
-        <TextView
-            android:id="@+id/tvRight"
-            style="@style/single_marquee"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:fontFamily="@font/cookie_regular"
-            android:gravity="center"
-            android:text="20/11/2025"
-            android:textColor="#C71414"
-            android:textSize="28sp" />
-    </LinearLayout>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/lnlTextTop">
+        app:layout_constraintTop_toBottomOf="@id/flActionBar">
 
         <LinearLayout
 
@@ -87,16 +35,86 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!--    lnlExport-->
-            <LinearLayout
-                android:id="@+id/lnlExport"
+            <!--    ctlExport-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/ctlExport"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="wrap_content">
 
-                <View
+                <!--    lnlTextTop-->
+                <LinearLayout
+                    android:id="@+id/lnlTextTop"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="16dp"
+                    android:weightSum="10"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <!--        tvLeft-->
+                    <TextView
+                        android:id="@+id/tvLeft"
+                        style="@style/single_marquee"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:fontFamily="@font/cookie_regular"
+                        android:gravity="center"
+                        android:textColor="#C71414"
+                        android:textSize="28sp" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2">
+
+                        <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_plush"
+                            app:tint="#C71414" />
+                    </FrameLayout>
+
+                    <!--        tvRight-->
+                    <TextView
+                        android:id="@+id/tvRight"
+                        style="@style/single_marquee"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:fontFamily="@font/cookie_regular"
+                        android:gravity="center"
+                        android:textColor="#C71414"
+                        android:textSize="28sp" />
+                </LinearLayout>
+
+                <com.love.compatibility.core.custom.view.HeartFillView
+                    android:id="@+id/heartView"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="70dp"
+                    app:layout_constraintDimensionRatio="1.16:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lnlTextTop" />
+
+                <!--                tvPercent-->
+                <TextView
+                    android:id="@+id/tvPercent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_extra_bold"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:textSize="44sp"
+                    android:translationY="10dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/heartView"
+                    app:layout_constraintEnd_toEndOf="@+id/heartView"
+                    app:layout_constraintStart_toStartOf="@+id/heartView"
+                    app:layout_constraintTop_toTopOf="@+id/heartView" />
 
                 <!--            tvComment-->
                 <TextView
@@ -104,15 +122,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="37dp"
-                    android:layout_marginBottom="45dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="40dp"
                     android:background="@drawable/bg_16_stroke_pink_solid_white"
                     android:fontFamily="@font/roboto_regular"
                     android:gravity="center"
                     android:paddingHorizontal="18dp"
                     android:paddingVertical="28dp"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
-            </LinearLayout>
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/heartView" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
             <LinearLayout

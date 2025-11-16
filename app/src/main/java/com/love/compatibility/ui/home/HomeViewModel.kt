@@ -1,16 +1,22 @@
 package com.love.compatibility.ui.home
 
 import android.content.Context
+import android.util.Log
 import androidx.lifecycle.ViewModel
+import com.google.common.collect.Multimaps.index
+import com.love.compatibility.core.helper.AssetHelper
 import com.love.compatibility.core.helper.MediaHelper
+import com.love.compatibility.core.helper.SharePreferenceHelper
 import com.love.compatibility.core.utils.DataLocal
 import com.love.compatibility.core.utils.key.AssetsKey
 import com.love.compatibility.core.utils.key.ValueKey
 import com.love.compatibility.core.utils.state.GetStatusLoveState
 import com.love.compatibility.core.utils.state.GetStringState
+import com.love.compatibility.data.model.QuestionModel
 import com.love.compatibility.data.model.status.StatusLoveTestModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlin.random.Random
 
 class HomeViewModel : ViewModel() {
     // Home ------------------------------------------------------------------------------------------------------------
@@ -39,6 +45,28 @@ class HomeViewModel : ViewModel() {
         }
     }
 
+    fun loadQuestionsList(context: Context, sharePreference: SharePreferenceHelper, quantity: Int){
+        val keyLang = sharePreference.getPreLanguage()
+        val questionAllLanguageList = AssetHelper.getSubfoldersAsset(context, AssetsKey.QUESTION_ASSET, true)
+        val positionQuestionLanguage = questionAllLanguageList.indexOfFirst { it.split(".").first() == keyLang }
+        val allQuestionInJson = AssetHelper.readJsonAsset<ArrayList<QuestionModel>>(context, "${AssetsKey.QUESTION_ASSET}/${questionAllLanguageList[positionQuestionLanguage]}") ?: arrayListOf()
+        val questionList = ArrayList<QuestionModel>()
+        val questionPositionList = ArrayList<Int>()
+        do {
+            var position = Random.nextInt(0, ValueKey.MAX_QUANTITY_QUESTION)
+            if (questionPositionList.isNotEmpty()){
+                while(questionPositionList.contains(position)){
+                    position = Random.nextInt(0, ValueKey.MAX_QUANTITY_QUESTION)
+                }
+            }
+            questionPositionList.add(position)
+        }while (questionPositionList.size < quantity)
+
+        questionPositionList.forEach { index ->
+            questionList.add(allQuestionInJson[index])
+        }
+        MediaHelper.writeListToFile(context, ValueKey.QUESTION_FILE, questionList)
+    }
 
     // Status ----------------------------------------------------------------------------------------------------------
     private val _statusLoveTest = MutableStateFlow<GetStatusLoveState>(GetStatusLoveState.Loading)

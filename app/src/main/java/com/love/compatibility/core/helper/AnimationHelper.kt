@@ -5,9 +5,11 @@ import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.Animation
+import android.view.animation.DecelerateInterpolator
 import android.view.animation.TranslateAnimation
 import android.widget.FrameLayout
 import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.love.compatibility.core.extensions.gone
 import com.love.compatibility.core.extensions.visible
@@ -97,6 +99,31 @@ object AnimationHelper{
             override fun onAnimationStart(animation: Animation?) {}
         })
         view.startAnimation(animate)
+    }
+    fun animatePercent(tv: TextView, target: Int, duration: Long = 5000L) {
+        ValueAnimator.ofInt(0, target).apply {
+            this.duration = duration
+            interpolator = DecelerateInterpolator()
+            addUpdateListener { animator ->
+                val value = animator.animatedValue as Int
+                tv.text = "$value%"
+            }
+            start()
+        }
+    }
+
+    fun animateWeight(view: View, targetWeight: Float, duration: Long = 600L) {
+        val startWeight = 1f
+        val animator = ValueAnimator.ofFloat(startWeight, targetWeight).apply {
+            this.duration = duration
+            addUpdateListener {
+                val animatedWeight = it.animatedValue as Float
+                val params = view.layoutParams as LinearLayout.LayoutParams
+                params.weight = animatedWeight
+                view.layoutParams = params
+            }
+        }
+        animator.start()
     }
 
 }

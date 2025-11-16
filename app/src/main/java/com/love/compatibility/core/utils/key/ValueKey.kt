@@ -7,6 +7,7 @@ object ValueKey {
     const val AVATAR_YOU_ALBUM = "Image Avatar You"
     const val TEMPLATE_ALBUM = "Image Template"
     const val STATUS_FILE = "status_model.json"
+    const val QUESTION_FILE = "question.json"
 
     const val TYPE_HOME = 0
     const val TYPE_STATUS = 1
@@ -25,4 +26,13 @@ object ValueKey {
     const val TEST_DATE_TYPE = 1
     const val TEST_FINGER_TYPE = 2
     const val TEST_LOVE_TYPE = 3
+    const val QUESTION_TYPE = 4
+
+    const val LOVE_TEST = 0
+    const val QUESTION_TEST = 1
+
+    const val STATE_1 = 0
+    const val STATE_2 = 1
+    const val STATE_3 = 2
+    const val MAX_QUANTITY_QUESTION = 60
 }

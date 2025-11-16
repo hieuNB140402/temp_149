@@ -1,0 +1,662 @@
+[
+    {
+        "question": "Apa makanan favorit saya?",
+        "answerList": [
+            "Pizza",
+            "sushi",
+            "Makanan daging dan sayur",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Olahraga apa yang paling saya sukai?",
+        "answerList": [
+            "Sepak bola",
+            "Bola basket",
+            "Tenis",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa malam ideal saya?",
+        "answerList": [
+            "Menonton film",
+            "Pergi jalan-jalan",
+            "Makan malam romantis",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Sekitar jam berapa saya biasanya bangun?",
+        "answerList": [
+            "6-7 pagi",
+            "7-8 pagi",
+            "8-9 pagi",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Aktivitas luar ruangan apa yang saya nikmati?",
+        "answerList": [
+            "Joging",
+            "Lintas alam",
+            "Bersepeda",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana saya suka menghabiskan pagi di akhir pekan?",
+        "answerList": [
+            "Tidur di",
+            "Joging",
+            "Sarapan di luar",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa minuman favorit saya?",
+        "answerList": [
+            "Kopi",
+            "Teh susu",
+            "Jus buah",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis kencan apa yang saya sukai?",
+        "answerList": [
+            "tanggal kopi",
+            "Tanggal film",
+            "Aktivitas luar ruangan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa yang ingin saya lakukan saat saya sedih?",
+        "answerList": [
+            "Mengobrol",
+            "Menonton film",
+            "Makan es krim",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Genre musik apa yang saya suka?",
+        "answerList": [
+            "Pop",
+            "Kidung",
+            "Batu",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis hadiah apa yang saya sukai?",
+        "answerList": [
+            "Buatan tangan",
+            "Dibeli di toko",
+            "Hadiah kejutan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis film apa yang saya suka?",
+        "answerList": [
+            "Komedi",
+            "Kengerian",
+            "Roman",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa makanan penutup favorit saya?",
+        "answerList": [
+            "Es krim",
+            "Kue",
+            "Buah-buahan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Olahraga ekstrem manakah yang ingin saya coba?",
+        "answerList": [
+            "Terjun payung",
+            "Mendaki gunung",
+            "Berselancar",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa yang paling saya sukai saat bepergian?",
+        "answerList": [
+            "Mengambil foto",
+            "Menjelajahi makanan",
+            "Belanja",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa kebiasaan sarapan saya?",
+        "answerList": [
+            "Makan bersama pasangan",
+            "Makan sendirian",
+            "Lewatkan sarapan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Makanan cepat saji apa yang saya suka?",
+        "answerList": [
+            "Hamburger",
+            "anjing panas",
+            "Pasta",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Ke mana saya suka pergi di akhir pekan?",
+        "answerList": [
+            "Taman",
+            "Kafe",
+            "Bioskop",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa yang ingin saya lakukan di waktu luang saya?",
+        "answerList": [
+            "Menonton film",
+            "Bermain game",
+            "Memasak",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Musim manakah yang paling saya sukai?",
+        "answerList": [
+            "Musim semi",
+            "Musim panas",
+            "Musim dingin",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Minuman musim dingin apa yang saya suka?",
+        "answerList": [
+            "Coklat panas",
+            "Teh hangat",
+            "Kopi",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Ke mana saya ingin pergi di waktu luang saya?",
+        "answerList": [
+            "Taman",
+            "Kafe",
+            "Belanja",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis permainan apa yang saya suka?",
+        "answerList": [
+            "Permainan papan",
+            "Video game",
+            "Olahraga",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa hadiah ulang tahun favoritku?",
+        "answerList": [
+            "Bunga",
+            "Cokelat",
+            "Pakaian",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Aktivitas akhir pekan manakah yang saya sukai?",
+        "answerList": [
+            "Piknik",
+            "Perjalanan pantai",
+            "Berkemah",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis kencan apa yang saya tidak suka?",
+        "answerList": [
+            "Kafe yang bising",
+            "Perjalanan belanja",
+            "Bioskop yang ramai",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Permainan olahraga apa yang saya suka?",
+        "answerList": [
+            "Sepak bola",
+            "Bola basket",
+            "Tenis",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa sarapan favorit saya?",
+        "answerList": [
+            "Roti",
+            "telepon",
+            "Ketan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis perjalanan apa yang saya sukai?",
+        "answerList": [
+            "Perjalanan kelompok",
+            "Perjalanan berpasangan",
+            "Perjalanan sendirian",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa kebiasaan menonton film saya?",
+        "answerList": [
+            "Tonton di rumah",
+            "Tonton di bioskop",
+            "Tonton bersama teman",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis cuaca apa yang saya sukai?",
+        "answerList": [
+            "Cerah",
+            "Hujan",
+            "Dingin dan berawan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana biasanya saya bersantai setelah hari yang melelahkan?",
+        "answerList": [
+            "Mendengarkan musik",
+            "Menonton YouTube",
+            "Sedang tidur",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Hewan peliharaan mana yang paling saya sukai?",
+        "answerList": [
+            "Anjing",
+            "Kucing",
+            "Hamster",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana saya lebih suka berkomunikasi?",
+        "answerList": [
+            "Mengirim SMS",
+            "Panggilan",
+            "Panggilan video",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa jenis minuman sarapan favorit saya?",
+        "answerList": [
+            "Susu",
+            "Teh",
+            "Kopi",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana biasanya saya mengungkapkan kasih sayang?",
+        "answerList": [
+            "Kata-kata",
+            "Hadiah",
+            "Menghabiskan waktu",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis restoran apa yang saya sukai?",
+        "answerList": [
+            "Makan santai",
+            "Makanan jalanan",
+            "Santapan lezat",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Saat saya senggang, apa yang biasanya ingin saya lakukan?",
+        "answerList": [
+            "Tetap di rumah",
+            "Keluar",
+            "Bertemu teman",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Minuman manis apa yang saya sukai?",
+        "answerList": [
+            "minuman kocok susu",
+            "smoothie",
+            "Soda",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana biasanya saya menunjukkan bahwa saya sedang kesal?",
+        "answerList": [
+            "Tetap diam",
+            "Kurangi bicara",
+            "Hindari pesan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis hadiah apa yang TIDAK saya sukai?",
+        "answerList": [
+            "Parfum",
+            "Pakaian",
+            "Barang mewah",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Genre buku apa yang saya suka?",
+        "answerList": [
+            "Roman",
+            "Swadaya",
+            "Misteri",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana saya lebih suka menghabiskan liburan?",
+        "answerList": [
+            "Bepergian",
+            "Tinggal di rumah",
+            "Mengunjungi keluarga",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jam berapa saya merasa paling energik?",
+        "answerList": [
+            "Pagi",
+            "Sore",
+            "Malam",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa makanan penenang saya?",
+        "answerList": [
+            "mie",
+            "Hidangan nasi",
+            "Makanan ringan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apakah saya lebih suka tinggal di dalam rumah atau di luar ruangan?",
+        "answerList": [
+            "Di dalam ruangan",
+            "Di luar rumah",
+            "Tergantung suasana hati",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana saya lebih suka menghabiskan hari-hari hujan?",
+        "answerList": [
+            "Sedang tidur",
+            "Menonton film",
+            "Membaca",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Rasa manakah yang paling saya sukai?",
+        "answerList": [
+            "Manis",
+            "Asin",
+            "Pedas",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Saat berkencan, apa yang lebih saya sukai?",
+        "answerList": [
+            "Pembicaraan",
+            "Sedang berjalan",
+            "Makan bersama",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis film apa yang membuat saya emosional?",
+        "answerList": [
+            "Drama",
+            "Roman",
+            "Inspiratif",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana biasanya saya berpakaian?",
+        "answerList": [
+            "Kasual",
+            "Sporty",
+            "Resmi",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jenis latihan apa yang saya sukai?",
+        "answerList": [
+            "gimnasium",
+            "Berlari",
+            "Latihan di rumah",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Hobi manakah yang paling cocok untuk saya?",
+        "answerList": [
+            "Menggambar",
+            "Musik",
+            "Fotografi",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Gaya rambut mana yang saya sukai?",
+        "answerList": [
+            "Rambut pendek",
+            "Rambut sedang",
+            "Rambut panjang",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana tanggapan saya ketika menerima kejutan?",
+        "answerList": [
+            "Senyum",
+            "Bersikaplah pemalu",
+            "Ekspresikan kegembiraan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana saya menggambarkan kepribadian saya?",
+        "answerList": [
+            "Tenang",
+            "Energik",
+            "Menyenangkan",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Camilan apa yang saya suka?",
+        "answerList": [
+            "Keripik",
+            "Cokelat",
+            "biskuit",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Bagaimana caraku mengakhiri hariku?",
+        "answerList": [
+            "Mendengarkan musik",
+            "Berbicara denganmu",
+            "Bersantai dengan tenang",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Apa buah favorit saya?",
+        "answerList": [
+            "Apel",
+            "Semangka",
+            "Pisang",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    },
+    {
+        "question": "Jika saya dapat memilih aktivitas akhir pekan, aktivitas apa yang akan saya pilih?",
+        "answerList": [
+            "Tinggal di rumah",
+            "Pergi berkencan",
+            "Bepergian ke suatu tempat di dekatnya",
+            "Tak satu pun dari hal di atas"
+        ],
+        "positionMyAnswer": -1,
+        "positionYouAnswer": -1
+    }
+]

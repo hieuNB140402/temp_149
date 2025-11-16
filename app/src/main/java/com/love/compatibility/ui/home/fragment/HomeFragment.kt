@@ -11,26 +11,35 @@ import com.love.compatibility.core.base.BaseFragment
 import com.love.compatibility.core.extensions.checkPermissions
 import com.love.compatibility.core.extensions.eLog
 import com.love.compatibility.core.extensions.goToSettings
+import com.love.compatibility.core.extensions.hideNavigation
 import com.love.compatibility.core.extensions.loadImageGlide
 import com.love.compatibility.core.extensions.requestPermission
 import com.love.compatibility.core.extensions.setOnSingleClick
 import com.love.compatibility.core.extensions.startIntent
 import com.love.compatibility.core.extensions.startIntentRightToLeft
 import com.love.compatibility.core.extensions.strings
+import com.love.compatibility.core.helper.AssetHelper
+import com.love.compatibility.core.helper.LanguageHelper
 import com.love.compatibility.core.helper.UnitHelper
 import com.love.compatibility.core.utils.key.IntentKey
 import com.love.compatibility.core.utils.key.RequestKey
 import com.love.compatibility.core.utils.key.ValueKey
 import com.love.compatibility.core.utils.state.GetStringState
 import com.love.compatibility.databinding.FragmentHomeBinding
+import com.love.compatibility.dialog.ChooseQuantityQuestionDialog
 import com.love.compatibility.ui.SettingsActivity
+import com.love.compatibility.ui.age_test.DateOfBirthActivity
 import com.love.compatibility.ui.choose_image.ChooseImageActivity
+import com.love.compatibility.ui.finger_test.FingerTestActivity
 import com.love.compatibility.ui.home.HomeActivity
 import com.love.compatibility.ui.home.HomeViewModel
 import com.love.compatibility.ui.name_test.NameTestActivity
 import com.love.compatibility.ui.permission.PermissionViewModel
+import com.love.compatibility.ui.question_test.QuestionTestActivity
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlin.getValue
+import kotlin.jvm.java
 
 class HomeFragment : BaseFragment<FragmentHomeBinding>() {
     private val permissionViewModel: PermissionViewModel by activityViewModels()
@@ -50,8 +59,17 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
             btnSettings.setOnSingleClick { homeActivity.startIntentRightToLeft(SettingsActivity::class.java) }
             btnLoveTest.setOnSingleClick { homeActivity.startIntentRightToLeft(NameTestActivity::class.java, true) }
             btnNameTest.setOnSingleClick { homeActivity.startIntentRightToLeft(NameTestActivity::class.java, false) }
+            btnDateTest.setOnSingleClick { homeActivity.startIntentRightToLeft(DateOfBirthActivity::class.java, false) }
+            btnFingerprintTest.setOnSingleClick {
+                homeActivity.startIntentRightToLeft(
+                    FingerTestActivity::class.java,
+                    false
+                )
+            }
+            btnQuestionTest.setOnSingleClick { handleChooseQuestionTest() }
         }
     }
+
     private fun checkStoragePermission() {
         val homeActivity = (activity as HomeActivity)
         if (homeActivity.checkPermissions(permissionViewModel.getStoragePermissions())) {
@@ -109,6 +127,26 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
             tvBtn4.text = homeActivity.strings(R.string.date_of_birth_test)
             tvBtn5.text = homeActivity.strings(R.string.question_test)
             tvBtn6.text = homeActivity.strings(R.string.test_now)
+        }
+    }
+
+    private fun handleChooseQuestionTest() {
+        val homeActivity = (activity as HomeActivity)
+        val dialog = ChooseQuantityQuestionDialog(homeActivity)
+        LanguageHelper.setLocale(homeActivity)
+        dialog.show()
+        dialog.onDismissClick = {
+            dialog.dismiss()
+            homeActivity.hideNavigation(true)
+        }
+        dialog.onChooseQuantity = { quantity ->
+            dialog.dismiss()
+            lifecycleScope.launch {
+                homeActivity.showLoading()
+                viewModel.loadQuestionsList(homeActivity, homeActivity.sharePreference, quantity)
+                homeActivity.dismissLoading(true)
+                homeActivity.startIntentRightToLeft(QuestionTestActivity::class.java)
+            }
         }
     }
 

@@ -47,7 +47,6 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>() {
         lifecycleScope.launch {
             if (!sharePreference.getIsFirstEdit()){
                 homeViewHolder.updateLongSlogan(this@SplashActivity)
-                startActivity(intentActivity)
             }
             delay(1500)
             startActivity(intentActivity)

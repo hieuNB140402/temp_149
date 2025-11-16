@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg_app"
+    tools:context=".ui.finger_test.FingerTestActivity">
+
+    <!--    flActionBar-->
+    <FrameLayout
+        android:id="@+id/flActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/actionBar"
+            layout="@layout/layout_actionbar" />
+    </FrameLayout>
+
+    <!--    tvTitle-->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:paddingHorizontal="16dp"
+        android:text="@string/enter_your_and_your_partner_s_fingerprints_for_compatibility"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/flActionBar" />
+
+    <!--    heartView-->
+    <com.love.compatibility.core.custom.view.HeartFillView
+        android:id="@+id/heartView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="70dp"
+        app:layout_constraintDimensionRatio="1.16:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/heartView">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_weight="1">
+
+            <!--            imvLeftFinger-->
+            <ImageView
+                android:id="@+id/imvLeftFinger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_finger" />
+
+            <!--            vLineLeft-->
+            <View
+                android:id="@+id/vLineLeft"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/bg_12_solid_pink_fe" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_weight="1">
+
+            <!--            imvRightFinger-->
+            <ImageView
+                android:id="@+id/imvRightFinger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_finger" />
+
+            <!--            vLineRight-->
+            <View
+                android:id="@+id/vLineRight"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/bg_12_solid_pink_fe" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

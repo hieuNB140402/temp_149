@@ -1,0 +1,362 @@
+[
+  {
+    "question": "What is my favorite food?",
+    "answerList": ["Pizza", "Sushi", "Hotpot", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which sport do I like the most?",
+    "answerList": ["Football", "Basketball", "Tennis", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my ideal evening?",
+    "answerList": ["Watching a movie", "Going for a walk", "Romantic dinner", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Around what time do I usually wake up?",
+    "answerList": ["6-7 AM", "7-8 AM", "8-9 AM", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which outdoor activity do I enjoy?",
+    "answerList": ["Jogging", "Hiking", "Cycling", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I like to spend a weekend morning?",
+    "answerList": ["Sleeping in", "Jogging", "Breakfast out", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my favorite drink?",
+    "answerList": ["Coffee", "Milk tea", "Fruit juice", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What type of date do I prefer?",
+    "answerList": ["Coffee date", "Movie date", "Outdoor activity", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What do I like to do when I am sad?",
+    "answerList": ["Chatting", "Watching a movie", "Eating ice cream", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What music genre do I like?",
+    "answerList": ["Pop", "Ballad", "Rock", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which type of gift do I prefer?",
+    "answerList": ["Handmade", "Store-bought", "Surprise gift", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What type of movies do I like?",
+    "answerList": ["Comedy", "Horror", "Romance", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my favorite dessert?",
+    "answerList": ["Ice cream", "Cake", "Fruits", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which extreme sport would I like to try?",
+    "answerList": ["Skydiving", "Mountain climbing", "Surfing", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What do I like to do most when traveling?",
+    "answerList": ["Taking photos", "Exploring food", "Shopping", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my breakfast habit?",
+    "answerList": ["Eat with partner", "Eat alone", "Skip breakfast", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What fast food do I like?",
+    "answerList": ["Hamburger", "Hotdog", "Pasta", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Where do I like to go on weekends?",
+    "answerList": ["Park", "Cafe", "Cinema", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What do I like to do in my free time?",
+    "answerList": ["Watching movies", "Playing games", "Cooking", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which season do I like the most?",
+    "answerList": ["Spring", "Summer", "Winter", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What winter drink do I like?",
+    "answerList": ["Hot chocolate", "Hot tea", "Coffee", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Where do I like to go in my free time?",
+    "answerList": ["Park", "Cafe", "Shopping", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which type of games do I like?",
+    "answerList": ["Board games", "Video games", "Sports", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my favorite birthday gift?",
+    "answerList": ["Flowers", "Chocolate", "Clothes", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which weekend activity do I like?",
+    "answerList": ["Picnic", "Beach trip", "Camping", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which type of date do I dislike?",
+    "answerList": ["Noisy cafe", "Shopping trip", "Crowded cinema", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which sport game do I like?",
+    "answerList": ["Football", "Basketball", "Tennis", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my favorite breakfast?",
+    "answerList": ["Bread", "Pho", "Sticky rice", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What type of travel do I prefer?",
+    "answerList": ["Group trip", "Couple trip", "Solo trip", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my movie-watching habit?",
+    "answerList": ["Watch at home", "Watch at cinema", "Watch with friends", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What type of weather do I prefer?",
+    "answerList": ["Sunny", "Rainy", "Cold and cloudy", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I usually relax after a long day?",
+    "answerList": ["Listening to music", "Watching YouTube", "Sleeping", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which pet do I like the most?",
+    "answerList": ["Dog", "Cat", "Hamster", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I prefer to communicate?",
+    "answerList": ["Texting", "Calling", "Video call", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my favorite type of breakfast drink?",
+    "answerList": ["Milk", "Tea", "Coffee", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I usually express affection?",
+    "answerList": ["Words", "Gifts", "Spending time", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which type of restaurant do I prefer?",
+    "answerList": ["Casual dining", "Street food", "Fine dining", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "When I’m free, what do I usually want to do?",
+    "answerList": ["Stay home", "Go out", "Meet friends", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which sweet drink do I prefer?",
+    "answerList": ["Milkshake", "Smoothie", "Soda", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I usually show that I'm upset?",
+    "answerList": ["Stay silent", "Talk less", "Avoid messages", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What type of gifts do I NOT like?",
+    "answerList": ["Perfume", "Clothes", "Fancy items", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What genre of books do I like?",
+    "answerList": ["Romance", "Self-help", "Mystery", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I prefer to spend holidays?",
+    "answerList": ["Traveling", "Staying home", "Visiting family", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What time of day do I feel most energetic?",
+    "answerList": ["Morning", "Afternoon", "Night", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my comfort food?",
+    "answerList": ["Noodles", "Rice dishes", "Snacks", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Do I prefer staying indoors or outdoors?",
+    "answerList": ["Indoors", "Outdoors", "Depends on mood", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I prefer to spend rainy days?",
+    "answerList": ["Sleeping", "Watching movies", "Reading", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which flavor do I like the most?",
+    "answerList": ["Sweet", "Salty", "Spicy", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "On a date, what do I prefer doing?",
+    "answerList": ["Talking", "Walking", "Eating together", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What type of movies make me emotional?",
+    "answerList": ["Drama", "Romance", "Inspirational", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I usually dress?",
+    "answerList": ["Casual", "Sporty", "Formal", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What type of workout do I prefer?",
+    "answerList": ["Gym", "Running", "Home workout", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which hobby fits me best?",
+    "answerList": ["Drawing", "Music", "Photography", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which hairstyle do I prefer?",
+    "answerList": ["Short hair", "Medium hair", "Long hair", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I respond when receiving surprises?",
+    "answerList": ["Smile", "Act shy", "Express excitement", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How would I describe my personality?",
+    "answerList": ["Calm", "Energetic", "Playful", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "Which snacks do I like?",
+    "answerList": ["Chips", "Chocolate", "Biscuits", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "How do I prefer to end my day?",
+    "answerList": ["Listening to music", "Talking to you", "Relaxing quietly", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "What is my favorite fruit?",
+    "answerList": ["Apple", "Watermelon", "Banana", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  },
+  {
+    "question": "If I could choose a weekend activity, what would it be?",
+    "answerList": ["Staying home", "Going on a date", "Traveling somewhere nearby", "None of the above"],
+    "positionMyAnswer": -1,
+    "positionYouAnswer": -1
+  }
+]

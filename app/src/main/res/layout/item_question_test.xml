@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+
+
+    <!--    cvContent-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/lnlContent"
+        app:layout_constraintEnd_toEndOf="@+id/lnlContent"
+        app:layout_constraintStart_toStartOf="@+id/lnlContent"
+        app:layout_constraintTop_toTopOf="@+id/lnlContent">
+
+        <ImageView
+            android:id="@+id/bgImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_question_bg" />
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_16_stroke_pink_ff"
+        app:layout_constraintBottom_toBottomOf="@+id/lnlContent"
+        app:layout_constraintEnd_toEndOf="@+id/lnlContent"
+        app:layout_constraintStart_toStartOf="@+id/lnlContent"
+        app:layout_constraintTop_toTopOf="@+id/lnlContent" />
+
+    <!--    lnlContent-->
+    <LinearLayout
+        android:id="@+id/lnlContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="6dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--        tvQuestion-->
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="start"
+            android:text="1. This is question"
+            android:textColor="#FF0077"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <!--                tvAnswer1-->
+            <TextView
+                android:id="@+id/tvAnswer1"
+                style="@style/single_marquee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_12_stroke_pink_solid_white"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="9dp"
+                android:text="Awnser 1"
+                android:textColor="@color/pink_ff"
+                android:textSize="12sp" />
+
+            <!--                tvAnswer2-->
+            <TextView
+                android:id="@+id/tvAnswer2"
+                style="@style/single_marquee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_12_stroke_pink_solid_white"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="9dp"
+                android:text="Awnser 2"
+                android:textColor="@color/pink_ff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <!--                tvAnswer3-->
+            <TextView
+                android:id="@+id/tvAnswer3"
+                style="@style/single_marquee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_12_stroke_pink_solid_white"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="9dp"
+                android:text="Awnser 3"
+                android:textColor="@color/pink_ff"
+                android:textSize="12sp" />
+
+            <!--                tvAnswer4-->
+            <TextView
+                android:id="@+id/tvAnswer4"
+                style="@style/single_marquee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_12_stroke_pink_solid_white"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="9dp"
+                android:text="Awnser 4"
+                android:textColor="@color/pink_ff"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

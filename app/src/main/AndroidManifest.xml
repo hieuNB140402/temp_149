@@ -22,11 +22,29 @@
         android:theme="@style/Theme.BaseProject"
         tools:replace="android:fullBackupContent">
         <activity
+            android:name=".ui.show_result_question_test.ShowResultQuestionTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.question_test.QuestionTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.show_result_love_test.ShowResultLoveTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.finger_test.FingerTestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".ui.age_test.DateOfBirthActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.result.ResultActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.name_test.NameTestActivity"
             android:exported="false"
